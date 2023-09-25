@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio"><i class="fa-solid fa-laptop-code"></i> Antonio</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#testimonio" onclick="seleccionar()">Testimonio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://i.pinimg.com/1200x/03/4b/f1/034bf1ded3303c7991f89c38f51ab1b0.jpg" alt="">
+            </div>
+            <h1>Jose Antonio</h1>
+            <h2>Hola! soy Ingeniero en desarrollo y gestion de software</h2>
+            <span> Me gustan los gatos y programar.</span>
+        </div>
+
+    </section>
+    <section class="sobremi">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/lenguajes.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Jose Antonio Romero, </span>un apasionado estudiante de Ingeniería en Desarrollo y
+                Gestion de Software en el décimo cuatrimestre de mi formación. Mi mundo gira en torno a la programación
+                y los lenguajes de programación como Java, C#, C++, JavaScript y PHP. Estoy en constante búsqueda de
+                desafíos que me permitan expandir mi experiencia en el desarrollo de software y llevar mis habilidades
+                al siguiente nivel.</p>
+            <p>En mi tiempo libre, me sumerjo en cursos en línea para seguir aprendiendo y me dejo llevar por la magia
+                de la música, que me acompaña mientras persigo mis objetivos y pasiones.</p>
+        </div>
+    </section>
+
+    <section id="hobies" class="sobremi">
+        <div class="contenido-seccion">
+            <div class="card-section">
+                <div class="card">
+                    <div class="card-header">
+                        Desarrollo
+                    </div>
+                    <div class="card-body">
+                        <p>Mi fascinación por los lenguajes de backend radica en su capacidad para dar vida a las aplicaciones web y facilitar la lógica que impulsa su funcionamiento.
+                             La elección del lenguaje adecuado es como elegir la clave para desbloquear un mundo de posibilidades en el desarrollo web.</p>
+                    </div>
+                    <div class="card-footer">
+                        gatos
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Hobies
+                    </div>
+                    <div class="card-body">
+                        <p>La música, con sus melodías y letras, me proporciona un refugio emocional y una fuente de inspiración inagotable. 
+                            La lectura, por otro lado, me lleva a mundos infinitos y me permite sumergirme en historias y conocimientos que enriquecen mi perspectiva</p>
+                    </div>
+                    <div class="card-footer">
+                        gatos
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Tecnologia
+                    </div>
+                    <div class="card-body">
+                        <p>El aprendizaje continuo, la música y la lectura. Estudiar cursos me permite expandir mis conocimientos y mantenerme actualizado en un mundo en constante evolución. </p>
+                    </div>
+                    <div class="card-footer">
+                        gatos
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/youroom.PNG" alt="">
+                    <div class="overlay">
+                        <h3>YourRoom</h3>
+                        <div class="linksepara">
+                            <a class="link" href="https://github.com/RodrigoMtzHdez/YourRom_equipo2"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a class="link" href="https://your-room-9e781.web.app/"><i
+                                    class="fa-solid fa-laptop"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/kawai.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Papeleria Kawai</h3>
+                        <div class="linksepara">
+                            <a class="link" href="https://github.com/JESUSDAViD23/Papeleria_Kawaii"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a class="link" href="https://papeleriakawai-ab4da.web.app/"><i
+                                    class="fa-solid fa-laptop"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Portafolio</h3>
+                        <div class="linksepara">
+                            <a class="link" href=""><i class="fa-brands fa-github"></i></a>
+                            <a class="link" href=""><i class="fa-solid fa-laptop"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonio" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Testimonios</h2>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img
+                                src="https://img.freepik.com/fotos-premium/gato-manchado-esponjoso-camina-sobre-hierba-verde-primavera_231786-6283.jpg"
+                                alt="img" draggable="false"></div>
+                        <h2>Yoltezcatl Aguilar Badillo</h2>
+                        <span>Ciencias Computacionales</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="https://img.freepik.com/fotos-premium/gato-sienta-mesa-fingiendo-ser-humano-desayunando-tomando-cafe-mirando-noticias_174343-3140.jpg" alt="img" draggable="false"></div>
+                        <h2>Rodrigo Martinez</h2>
+                        <span>Desarrollador Web</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="https://thumbs.dreamstime.com/z/gato-con-el-caf%C3%A9-y-cruas%C3%A1n-123473455.jpg" alt="img" draggable="false"></div>
+                        <h2>Jesus David</h2>
+                        <span>Desarrollo Backend</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="https://thumbs.dreamstime.com/z/cat-grey-quiere-tomar-caf%C3%A9-un-gato-gris-beber-una-taza-de-fondo-blanco-aislado-203314361.jpg" alt="img" draggable="false"></div>
+                        <h2>Jose Angel</h2>
+                        <span>Freelancer</span>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" name="" placeholder="Nombre" id="">
+                    <input type="text" name="" placeholder="Numero telefonico" id="">
+                    <input type="text" name="" placeholder="Correo electronico" id="">
+                    <input type="text" name="" placeholder="Tema" id="">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/ubicacion.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Huejutla de Reyes, Hidalgo, Mexico
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contactame: 789-898901
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                Email: Jarldk03x@yimail.com
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/joseantonio.romero.33/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/AntonioRomero05"><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:20200766@uthh.edu.mx"><i class="fa-regular fa-envelope"></i></i></a>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
